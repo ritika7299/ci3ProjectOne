@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <p class="error" style="color:red;">Email is required.</p>
+        <p class="error d-none" style="color:red;">Email is required.</p>
         <div class="input-group mb-3">
           <input type="password" class="form-control" id="password" name="password" value="<?php echo set_value('password');?>" placeholder="Password"required="">
           <?php echo form_error('password'); ?>
@@ -64,7 +64,7 @@
             </div>
           </div>
         </div>
-        <p class="error" style="color:red;">Password is required.</p>
+        <p class="error d-none" style="color:red;">Password is required.</p>
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">

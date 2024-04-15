@@ -100,6 +100,12 @@ class Auth extends CI_Controller {
             $this->load->view('Auth/footer');
 
         }
+        public function loggedIn()
+        {
+            return ($_SESSION['loggedIn'] == true) ? true : false;
+        }
+       
+        
 
        
         

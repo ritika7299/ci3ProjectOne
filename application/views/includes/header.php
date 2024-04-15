@@ -1,62 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="<?php echo base_url();?>https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/assets/plugins/fontawesome-free/css/all.min.css">
-    <!-- icheck bootstrap -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo base_url();?>/assets/dist/css/adminlte.min.css">
+    <title>Grad School HTML5 Template</title>
     
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <!-- Bootstrap core CSS -->
+    <link href="<?php echo base_url();?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>CRUD Opertations in CI3!!</title>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="<?php echo base_url();?>assetshome/css/fontawesome.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assetshome/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assetshome/css/owl.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assetshome/css/lightbox.css">
+    <!--  TemplateMo 557 Grad Schoolhttps://templatemo.com/tm-557-grad-school-->
   </head>
-  <body>
-    
-    <header class="p-3 bg-dark text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-        </a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="<?php echo base_url();?>Auth/index" class="nav-link px-2 text-white">
-            <i class="fa fa-home" aria-hidden="true"></i> Home
-          </a></li>
-          <li><a href="<?php echo base_url();?>" class="nav-link px-2 text-white">
-          <i class="fa-solid fa-user-plus"></i>
-          </a></li>
-          <li><a href="#" class="nav-link px-2 text-white">
-            <i class="fa-solid fa-trash"></i>
-          </a></li>
-          <li><a href="#" class="nav-link px-2 text-white">
-            <i class="fa fa-question-circle" aria-hidden="true"></i> FAQs
-          </a></li>
-          <li><a href="<?php echo base_url();?>Auth/about" class="nav-link px-2 text-white">
-            <i class="fa-solid fa-info"></i> About
-          </a></li>
-        </ul>
+<body>
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="text-end">
-          <button type="submit" class="btn btn-outline-light me-2">Search</button>
-          <a href=""><button type="submit" class="btn btn-outline-light me-2">Sign-in</button></a>
-          <a href="<?php echo base_url();?>Auth/signup"><button type="submit" class="btn btn-warning">Sign-up</button></a>           
-        </div>
-      </div>
+   
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>Grad</em> School</a>
     </div>
+    <a href="#" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="<?php echo base_url();?>Auth/index">Home</a></li>
+        <li class="has-submenu"><a href="#section2">About Us</a>
+          <ul class="sub-menu">
+            <li><a href="#">Who we are?</a></li>
+            <li><a href="#">What we do?</a></li>
+            <li><a href="#">How it works?</a></li>
+            <li><a href="" rel="sponsored" class="external">External URL</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Courses</a></li>
+        <!-- <li><a href="#section5">Video</a></li> -->
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="external">Sign-up</a></li>
+        <li><a href="<?php echo base_url();?>Auth/signin" class="signin">Sign-in</a></li>
+      </ul>
+    </nav>
   </header>
+  

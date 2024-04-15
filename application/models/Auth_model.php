@@ -71,6 +71,14 @@ class Auth_model extends CI_Model {
 
      redirect('auth/signin','refresh');
     }
+   
+    public function loggedIn()
+    {
+        return ($_SESSION['loggedIn'] == true) ? true : false;
+    }
+   
+    
+
 
     
     
