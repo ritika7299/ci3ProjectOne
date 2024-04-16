@@ -43,7 +43,8 @@
       <form method="POST" action="<?php echo base_url();?>Auth/signin_form">
       
       <?php echo validation_errors(); ?>
-      <?php echo form_open('Auth/signin_form'); ?>
+      <form action="<?php base_url();?>/Auth/signin_form/setsession" method="post">
+      
         <div class="input-group mb-3">
           <input type="email" class="form-control" id="email" name="email" value="<?php echo set_value('email');?>" placeholder="Email" required="">
           <?php echo form_error('email'); ?>          
