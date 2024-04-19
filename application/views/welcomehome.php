@@ -34,7 +34,8 @@
                 maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
               <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
                 posuere imperdiet.</p>
-              <div class="scroll"><a href="#section2">More Info.</a></div>
+              <div class="scroll"> <a href="<?php echo base_url(); ?>Course_details/index" target="_blank">click
+                  here</a></div>
             </div>
           </div>
         </div>
@@ -67,7 +68,7 @@
                 maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
               <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
                 posuere imperdiet.</p>
-              <div class="scroll"><a href="#section3">Details</a></div>
+              <div class="scroll"><a href="<?php echo base_url(); ?>Virtual_details/index">Details</a></div>
             </div>
           </div>
         </div>
@@ -82,7 +83,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="section-heading">
-          <h2>Why choose Grad School?</h2>
+          <h2>Why choose Delhi Public School?</h2>
         </div>
       </div>
       <div class="col-md-12">

@@ -1,6 +1,9 @@
-<footer>
+<footer style="position: fixed;
+    height: 75px;
+    bottom: 0;
+    width: 100%;">
   <div class="container">
-    <div class="row">
+    <div class="row" style="min-height:200%;display:flex;flex-direction:column;margin-top:auto;">
       <div class="col-md-12">
         <p><i class="fa fa-copyright"></i> Copyright © 2021. Delhi High Court. All Rights Reserved.
 

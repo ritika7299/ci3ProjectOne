@@ -11,7 +11,7 @@
     href="<?php echo base_url(); ?>https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
     rel="stylesheet">
 
-  <title>Delhi Public School</title>
+  <title>DPS</title>
 
   <!-- Bootstrap core CSS -->
   <link href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,21 +30,23 @@
   <!--header-->
   <header class="main-header clearfix" role="header">
     <div class="logo">
-      <a href="#"><em>Delhi</em> Public School</a>
+      <a href="#"><em>DPS</em> </a>
     </div>
     <a href="#" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
         <li><a href="<?php echo base_url(); ?>Auth/index">Home</a></li>
-        <li class="has-submenu"><a href="#section2">About Us</a>
+        <li class="has-submenu"><a href="">About Us</a>
           <ul class="sub-menu">
             <li><a href="#">Who we are?</a></li>
             <li><a href="#">What we do?</a></li>
             <li><a href="#">How it works?</a></li>
-            <li><a href="" rel="sponsored" class="external">External URL</a></li>
+            <li><a href="" rel="sponsored" class="contactus">Contact Us</a></li>
           </ul>
         </li>
-        <li><a href="#">Courses</a></li>
+        <li><a href="<?php echo base_url();
+        "allcourses" ?>">Courses</a></li>
+
         <!-- <li><a href="#section5">Video</a></li> -->
         <li><a href="#">Contact</a></li>
         <li><a href="<?php echo base_url(); ?>Auth/signup" class="singup">Sign-up</a></li>

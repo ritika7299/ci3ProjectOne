@@ -61,9 +61,10 @@
               <div class="media">
                 <img src="<?php echo base_url(); ?>/assets/dist/img/user1-128x128.jpg" alt="User Avatar"
                   class="img-size-50 mr-3 img-circle">
+                <div class="media"></div>
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
-                    Brad Diesel
+
                     <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                   </h3>
                   <p class="text-sm">Call me whenever you can...</p>
@@ -351,7 +352,9 @@
                 <div class="icon">
                   <i class="ion ion-bag"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+
+                <a href="<?php echo base_url(); ?>allcourse" class="small-box-footer">More info <i
+                    class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
             <!-- ./col -->
