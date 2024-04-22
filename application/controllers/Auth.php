@@ -28,14 +28,18 @@ class Auth extends CI_Controller
     public function signin_form()
     {
         if ($this->input->post()) {
+            $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
             $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
             $this->form_validation->set_rules('password', 'Password', 'required|valid_email');
-
+            $this->form_validation->set_message('required', '{field} must be filled');
             if ($this->form_validation->run() == FALSE) {
                 // echo "error";
                 echo validation_errors();
             } else {
+
+
                 echo "success";
+
 
             }
         }

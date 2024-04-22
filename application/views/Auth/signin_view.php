@@ -71,7 +71,7 @@
                 </div>
               </div>
             </div>
-            <p class="error d-none" style="color:red;">Password is required.</p>
+            <p class="error d-none " style="color:red;">Password is required.</p>
             <div class="row">
               <div class="col-8">
                 <div class="icheck-primary">

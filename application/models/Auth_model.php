@@ -25,6 +25,7 @@ class Auth_model extends CI_Model
             $data = array(
                 'username' => $this->input->post('username'),
                 'email' => $this->input->post('email'),
+
                 'password' => $password,
             );
             $this->db->insert('signinfo', $data);
