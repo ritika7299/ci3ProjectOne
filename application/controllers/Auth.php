@@ -53,6 +53,8 @@ class Auth extends CI_Controller
 
     }
 
+
+
     public function signup_form()
     {
 
@@ -105,20 +107,18 @@ class Auth extends CI_Controller
 
     }
 
-    public function setdata()
+    public function forgotpassword()
     {
-        $this->load->view('Auth/signin_view');
-        // echo "yes"; die;
+        $this->load->view('Auth/forgot_password');
+
     }
 
-    public function setsession()
+    public function forgotpass_info()
     {
-        // $this->load->view('Auth/signin_view');
-        // echo "yes"; die;
-        echo "<pre>";
-        print_r($this->input->post());
-        die;
+        // $this->load->view('Auth/forgot_password');
+
     }
+
 
 
 

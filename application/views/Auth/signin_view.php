@@ -101,7 +101,7 @@
           <!-- /.social-auth-links -->
 
           <p class="mb-1">
-            <a href="forgot-password.html">Forgot password</a>
+            <a href="<?php echo base_url(); ?>Auth/forgotpassword">Forgot password</a>
           </p>
           <p class="mb-0">
             <a href="<?php echo site_url(); ?>Auth/signup" class="text-center">Don't have an account? <b>Sign-up
