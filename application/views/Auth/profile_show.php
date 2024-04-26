@@ -169,7 +169,7 @@
               alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Ritika </a>
+            <a href="#" class="d-block">Sameer </a>
           </div>
         </div>
 
