@@ -85,7 +85,7 @@ a.menu-link { display: none; }
 @media screen and (max-width: 950px) {
   a.menu-link {
     float: right;
-    display: block;
+    display: flex;
     font-size: 36px;
     color: #fff;
     padding-right: 30px;
