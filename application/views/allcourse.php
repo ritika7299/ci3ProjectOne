@@ -74,7 +74,7 @@
             </tr>
             <tr>
                 <th scope="row">11</th>
-                <td>CSS</td>
+                <td>Swift</td>
                 <td>1 month</td>
                 <td>Rs. 3000</td>
             </tr>
@@ -84,6 +84,37 @@
                 <td>3 month</td>
                 <td>Rs. 6000</td>
             </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>Spring Boot</td>
+                <td>3 month</td>
+                <td>Rs. 16000</td>
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td>Jsp-Servlet</td>
+                <td>3 month</td>
+                <td>Rs. 18000</td>
+            </tr>
+            <tr>
+                <th scope="row">15</th>
+                <td>GitHub</td>
+                <td>1 month</td>
+                <td>Rs. 5000</td>
+            </tr>
+            <tr>
+                <th scope="row">16</th>
+                <td>Spring Core</td>
+                <td>3 month</td>
+                <td>Rs. 18000</td>
+            </tr>
+            <tr>
+                <th scope="row">17</th>
+                <td>CI-CD</td>
+                <td>1 month</td>
+                <td>Rs. 18000</td>
+            </tr>
+
         </tbody>
     </table>
 

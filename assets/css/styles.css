@@ -77,6 +77,38 @@ form {
     float: right;
     padding-top: 16px;
   }
+
+  @media only screen and (min-width: 320px) and (max-width: 520px) {
+    .site-header {
+      position: fixed!important;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 520px) {
+    .icon-box .icon-box-readmore {
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #FFF;
+      border-bottom: 0px;
+      text-decoration: none;
+      border-color: #FFA500;
+      border-width: 2px;
+      border-style: solid;
+      font-size: 15px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: 50px;
+      padding-right: 50px;
+      letter-spacing: 4px;
+      position: fixed;
+      background-color: #FFA500;
+      box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.8);
+       z-index: 1;
+    }
+  }
   
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (max-width: 300px) {

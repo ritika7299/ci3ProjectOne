@@ -345,7 +345,7 @@
               <!-- small box -->
               <div class="small-box bg-info">
                 <div class="inner">
-                  <h3>44</h3>
+                  <h3>17</h3>
 
                   <p>All Courses</p>
                 </div>
