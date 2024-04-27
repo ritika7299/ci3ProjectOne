@@ -85,6 +85,9 @@ $route['course_view'] = 'Course_details/index';
 /*---------- Virtual details Section routes ---------------------- */
 $route['virtual_view'] = 'Virtual_details/index';
 
+/*---------- Virtual details Section routes ---------------------- */
+$route['contact'] = 'Home/contactus';
+
 
 
 

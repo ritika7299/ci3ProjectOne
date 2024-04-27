@@ -34,7 +34,7 @@
                 maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
               <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a
                 posuere imperdiet.</p>
-              <div class="scroll"> <a href="<?php echo base_url(); ?>Course_details/index" target="_blank">click
+              <div class="scroll"> <a href="<?php echo base_url(); ?>allcourse" target="_blank">click
                   here</a></div>
             </div>
           </div>
