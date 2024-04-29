@@ -5,12 +5,9 @@
   <div class="container">
     <div class="row" style="min-height:200%;display:flex;flex-direction:column;margin-top:auto;">
       <div class="col-md-12">
-        <p><i class="fa fa-copyright"></i> Copyright © 2021. Delhi High Court. All Rights Reserved.
+        <p><i class="fa fa-copyright"></i> 2024 Delhi District Courts by 
 
-          Rouse Avenue Court Complex, Pandit Deen Dayal Upadhyaya Marg, Mandi House, New Delhi, Delhi 110002
-
-          | Design: <a href="https://delhidistrictcourts.nic.in/" rel="sponsored" target="_blank">Delhi District
-            Court</a></p>
+          | Design: <a href="https://delhidistrictcourts.nic.in/" rel="sponsored" target="_blank">IT-Cell (HQs),Tis Hazari</a></p>
       </div>
     </div>
   </div>
