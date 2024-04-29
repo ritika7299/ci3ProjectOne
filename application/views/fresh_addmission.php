@@ -7,7 +7,7 @@
       <div class="col-md-7 col-xs-12">
         <div class="continer centerIt">
           <div>
-            <h4>Take <em>any online course</em> and win $326 for your next class</h4>
+            <h4>Take <em>any online course</em> and win $356 for your next class</h4>
             <div class="counter">
 
               <div class="days">
@@ -72,4 +72,18 @@
 
 <!-- ***** Main Banner Area End ***** -->
 
-<?php $this->load->view("includes/footer"); ?>
+
+<footer style="position: fixed;
+    height: 75px;
+    bottom: 0;
+    width: 100%;">
+  <div class="container">
+    <div class="row" style="min-height:200%;display:flex;flex-direction:column;margin-top:auto;">
+      <div class="col-md-12">
+        <p><i class="fa fa-copyright"></i> 2024 Delhi District Courts by 
+
+          | Design: <a href="https://delhidistrictcourts.nic.in/" rel="sponsored" target="_blank">IT-Cell (HQs),Tis Hazari</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
